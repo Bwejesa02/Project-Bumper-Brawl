@@ -72,3 +72,30 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# --- Unreal Engine Specific ---
+*.uproject
+/Binaries/*
+/DerivedDataCache/*
+/Intermediate/*
+/Saved/*
+
+# --- Blender Specific ---
+*.blend1
+*.blend2
+*.blend@
+__pycache__/
+
+# General system or editor specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editor configurations
+.idea/
+*.log
+.vscode/
+*.vsconfig
+*.userprefs
+
+# Git Large File Storage (LFS) Tracking
+.gitattributes
