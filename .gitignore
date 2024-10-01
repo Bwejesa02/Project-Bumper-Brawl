@@ -117,7 +117,9 @@ UserSettings.ini
 
 # Editor-related config and cache files
 DDCKey-Editor.txt
-Telemetry.json
+
+# Custom exclusions for specific files
+# Exclude specific files
 BumperBrawl/Intermediate/CachedAssetRegistry_0.bin
 BumperBrawl/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
 BumperBrawl/Saved/Telemetry/Telemetry.json
