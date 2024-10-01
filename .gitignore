@@ -118,3 +118,6 @@ UserSettings.ini
 # Editor-related config and cache files
 DDCKey-Editor.txt
 Telemetry.json
+BumperBrawl/Intermediate/CachedAssetRegistry_0.bin
+BumperBrawl/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
+BumperBrawl/Saved/Telemetry/Telemetry.json
