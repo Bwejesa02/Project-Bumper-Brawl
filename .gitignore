@@ -98,3 +98,23 @@ Thumbs.db
 
 # Git Large File Storage (LFS) Tracking
 .gitattributes
+
+# --- Custom additions ---
+# Unreal Engine cache and temporary files
+*.bin
+
+# Shader headers
+*.ush
+
+# Auto-screenshot files
+*.png
+
+# Crash report files
+CrashReportClient.ini
+
+# User settings
+UserSettings.ini
+
+# Editor-related config and cache files
+DDCKey-Editor.txt
+Telemetry.json
