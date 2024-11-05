@@ -5,7 +5,7 @@
 			<value>CarHorn2</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{863f2bff-2f59-4db2-8fca-2b99e261178e}</destination>
@@ -33,6 +33,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{51746b4f-b755-4a61-b4c5-2a4355d1d1db}</destination>
+			<destination>{a4f4b658-6db5-4a57-8b35-87987d829407}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{4db9c55f-0c8e-4797-bbb7-5d156e707ce1}">
@@ -113,6 +114,7 @@
 	<object class="MixerBusEffectChain" id="{6252eaf5-07a0-4a1f-afb2-c4fcc8c5480f}">
 		<relationship name="effects">
 			<destination>{38db27cc-ce26-4482-99c1-3f29e6640fdd}</destination>
+			<destination>{bd1a0f14-99c9-42ab-ae04-968759d84c6b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4ddd684e-814a-4d24-a294-3b5ae24c8d6f}" />
@@ -124,5 +126,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{83cb2f8d-f3d1-45d9-8e62-1773c3d32b1f}" />
 	<object class="MixerBusFader" id="{38db27cc-ce26-4482-99c1-3f29e6640fdd}" />
+	<object class="SpatialiserEffect" id="{bd1a0f14-99c9-42ab-ae04-968759d84c6b}" />
 	<object class="MixerBusFader" id="{410dc9aa-6508-48fe-a963-4dd8148d7f99}" />
 </objects>
