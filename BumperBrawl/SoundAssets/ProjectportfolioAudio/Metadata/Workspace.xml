@@ -4,10 +4,6 @@
 		<property name="builtBanksOutputDirectory">
 			<value>../../../../../../../IndividualProjectPrototype/Assets/ProjectportfolioAudio/Build</value>
 		</property>
-		<property name="builtBanksEncryptionKey" />
-		<property name="builtBanksMirrorBrowserFolderHierarchy">
-			<value>true</value>
-		</property>
 		<relationship name="masterEventFolder">
 			<destination>{863f2bff-2f59-4db2-8fca-2b99e261178e}</destination>
 		</relationship>
