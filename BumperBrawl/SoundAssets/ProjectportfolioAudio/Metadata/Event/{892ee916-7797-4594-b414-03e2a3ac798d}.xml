@@ -5,7 +5,7 @@
 			<value>BrakingHard</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{863f2bff-2f59-4db2-8fca-2b99e261178e}</destination>
@@ -95,6 +95,9 @@
 		<property name="length">
 			<value>0.47327083333333331</value>
 		</property>
+		<property name="quantizationInterval">
+			<value>5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{59b9b2ff-0a11-42b8-91e3-b8d96733aac7}</destination>
 		</relationship>
@@ -130,7 +133,7 @@
 	<object class="MixerBusEffectChain" id="{04288839-d8ec-40e1-8f89-f49d9426f1b9}">
 		<relationship name="effects">
 			<destination>{a6a70a07-b75e-4fe5-b892-d7f481089288}</destination>
-			<destination>{d16ea98a-d6f3-4ef8-949c-3bb7824437bb}</destination>
+			<destination>{c2ecb887-ea87-4cdc-a58b-175d1f89ef3c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{43113f76-f5a1-4c1f-bffd-bf847c68bff4}" />
@@ -142,6 +145,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{f3fcbf5f-f71b-4d66-8257-42da2d11775b}" />
 	<object class="MixerBusFader" id="{a6a70a07-b75e-4fe5-b892-d7f481089288}" />
-	<object class="ObjectSpatialiserEffect" id="{d16ea98a-d6f3-4ef8-949c-3bb7824437bb}" />
+	<object class="SpatialiserEffect" id="{c2ecb887-ea87-4cdc-a58b-175d1f89ef3c}" />
 	<object class="MixerBusFader" id="{bc9b7bcf-5e17-4963-989b-cf86f8dce515}" />
 </objects>
