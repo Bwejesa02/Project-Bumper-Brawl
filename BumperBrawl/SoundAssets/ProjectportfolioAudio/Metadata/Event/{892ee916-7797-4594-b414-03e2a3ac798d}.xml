@@ -92,11 +92,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{14d77cb7-a5fd-4866-a634-183acbe71666}" />
 	<object class="SingleSound" id="{c94e1cfd-f0d3-4452-88f0-98ac5fa61b67}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
 		<property name="length">
 			<value>0.47327083333333331</value>
 		</property>
 		<property name="quantizationInterval">
 			<value>5</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{59b9b2ff-0a11-42b8-91e3-b8d96733aac7}</destination>
