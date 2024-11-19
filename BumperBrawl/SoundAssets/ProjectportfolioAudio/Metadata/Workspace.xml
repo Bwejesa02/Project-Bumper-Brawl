@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{0ba5f288-f44f-4c3d-84c0-935d1b8ab349}">
 		<property name="builtBanksOutputDirectory">
-			<value>Build</value>
+			<value>../../../../Individual-project-portfolio/IndividualProjectPrototype/Assets/ProjectportfolioAudio/Build</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{863f2bff-2f59-4db2-8fca-2b99e261178e}</destination>
