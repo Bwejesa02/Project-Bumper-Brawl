@@ -129,3 +129,7 @@ BumperBrawl/Saved/AutoScreenshot.png
 BumperBrawl/Intermediate/
 BumperBrawl/Saved/
 
+# Ignore Unreal-generated metadata and cache files
+**/.cache/
+**/.user/
+
