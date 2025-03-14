@@ -124,3 +124,7 @@ BumperBrawl/Intermediate/CachedAssetRegistry_0.bin
 BumperBrawl/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
 BumperBrawl/Saved/Telemetry/Telemetry.json
 BumperBrawl/Saved/AutoScreenshot.png
+# Ignore Unreal-generated metadata and cache files
+**/.cache/
+**/.user/
+
