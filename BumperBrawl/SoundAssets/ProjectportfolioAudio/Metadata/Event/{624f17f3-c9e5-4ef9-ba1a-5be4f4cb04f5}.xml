@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{624f17f3-c9e5-4ef9-ba1a-5be4f4cb04f5}">
 		<property name="note">
 			<value>Placeholder created via Unity</value>
