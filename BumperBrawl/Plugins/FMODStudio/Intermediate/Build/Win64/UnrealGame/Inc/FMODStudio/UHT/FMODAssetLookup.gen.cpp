@@ -85,15 +85,25 @@ UScriptStruct* Z_Construct_UScriptStruct_FFMODAssetLookupRow()
 // End ScriptStruct FFMODAssetLookupRow
 
 // Begin Registration
+<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_Statics
+=======
+struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_Statics
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ FFMODAssetLookupRow::StaticStruct, Z_Construct_UScriptStruct_FFMODAssetLookupRow_Statics::NewStructOps, TEXT("FMODAssetLookupRow"), &Z_Registration_Info_UScriptStruct_FMODAssetLookupRow, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODAssetLookupRow), 382889334U) },
 	};
 };
+<<<<<<< HEAD
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_3709473393(TEXT("/Script/FMODStudio"),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_Statics::ScriptStructInfo),
+=======
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_3709473393(TEXT("/Script/FMODStudio"),
+	nullptr, 0,
+	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_FMODAssetLookup_h_Statics::ScriptStructInfo),
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	nullptr, 0);
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

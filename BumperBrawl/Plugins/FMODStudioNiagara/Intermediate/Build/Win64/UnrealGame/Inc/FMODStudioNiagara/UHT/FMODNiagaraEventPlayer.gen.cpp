@@ -31,6 +31,7 @@ struct Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "Category", "Audio" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** This Data Interface can be used to play one-shot audio effects driven by particle data. */" },
 #endif
@@ -60,6 +61,25 @@ struct Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A set of parameter names that can be referenced via index when setting sound cue parameters on persistent audio" },
 #endif
+=======
+		{ "Comment", "/** This Data Interface can be used to play one-shot audio effects driven by particle data. */" },
+		{ "DisplayName", "FMOD Event Player" },
+		{ "IncludePath", "FMODNiagaraEventPlayer.h" },
+		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+		{ "ToolTip", "This Data Interface can be used to play one-shot audio effects driven by particle data." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EventToPlay_MetaData[] = {
+		{ "Category", "Audio" },
+		{ "Comment", "/** Reference to the audio asset to play */" },
+		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+		{ "ToolTip", "Reference to the audio asset to play" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ParameterNames_MetaData[] = {
+		{ "Category", "Parameters" },
+		{ "Comment", "/** A set of parameter names that can be referenced via index when setting sound cue parameters on persistent audio */" },
+		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+		{ "ToolTip", "A set of parameter names that can be referenced via index when setting sound cue parameters on persistent audio" },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bLimitPlaysPerTick_MetaData[] = {
 		{ "Category", "Audio" },
@@ -69,6 +89,7 @@ struct Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxPlaysPerTick_MetaData[] = {
 		{ "Category", "Audio" },
 		{ "ClampMin", "0" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** This sets the max number of sounds played each tick.\n     *  If more particles try to play a sound in a given tick, then it will play sounds until the limit is reached and discard the rest.\n     *  The particles to discard when over the limit are *not* chosen in a deterministic way. */" },
 #endif
@@ -77,10 +98,17 @@ struct Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This sets the max number of sounds played each tick.\nIf more particles try to play a sound in a given tick, then it will play sounds until the limit is reached and discard the rest.\nThe particles to discard when over the limit are *not* chosen in a deterministic way." },
 #endif
+=======
+		{ "Comment", "/** This sets the max number of sounds played each tick.\n     *  If more particles try to play a sound in a given tick, then it will play sounds until the limit is reached and discard the rest.\n     *  The particles to discard when over the limit are *not* chosen in a deterministic way. */" },
+		{ "EditCondition", "bLimitPlaysPerTick" },
+		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+		{ "ToolTip", "This sets the max number of sounds played each tick.\nIf more particles try to play a sound in a given tick, then it will play sounds until the limit is reached and discard the rest.\nThe particles to discard when over the limit are *not* chosen in a deterministic way." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UIMin", "0" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bStopWhenComponentIsDestroyed_MetaData[] = {
 		{ "Category", "Audio" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If false then it the audio component keeps playing after the niagara component was destroyed. Looping sounds are always stopped when the component is destroyed. */" },
 #endif
@@ -88,10 +116,16 @@ struct Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If false then it the audio component keeps playing after the niagara component was destroyed. Looping sounds are always stopped when the component is destroyed." },
 #endif
+=======
+		{ "Comment", "/** If false then it the audio component keeps playing after the niagara component was destroyed. Looping sounds are always stopped when the component is destroyed. */" },
+		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+		{ "ToolTip", "If false then it the audio component keeps playing after the niagara component was destroyed. Looping sounds are always stopped when the component is destroyed." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #if WITH_EDITORONLY_DATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bOnlyActiveDuringGameplay_MetaData[] = {
 		{ "Category", "Audio" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true then this data interface only processes sounds during active gameplay. This is useful when you are working in the preview window and the sounds annoy you.\n     *  Currently the FMOD Niagara integration will not play in Editor.\n     */" },
 #endif
@@ -99,6 +133,11 @@ struct Z_Construct_UClass_UFMODNiagaraEventPlayer_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true then this data interface only processes sounds during active gameplay. This is useful when you are working in the preview window and the sounds annoy you.\nCurrently the FMOD Niagara integration will not play in Editor." },
 #endif
+=======
+		{ "Comment", "/** If true then this data interface only processes sounds during active gameplay. This is useful when you are working in the preview window and the sounds annoy you.\n     *  Currently the FMOD Niagara integration will not play in Editor.\n     */" },
+		{ "ModuleRelativePath", "Public/FMODNiagaraEventPlayer.h" },
+		{ "ToolTip", "If true then this data interface only processes sounds during active gameplay. This is useful when you are working in the preview window and the sounds annoy you.\nCurrently the FMOD Niagara integration will not play in Editor." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_EDITORONLY_DATA
 #endif // WITH_METADATA
@@ -191,6 +230,7 @@ UFMODNiagaraEventPlayer::~UFMODNiagaraEventPlayer() {}
 // End Class UFMODNiagaraEventPlayer
 
 // Begin Registration
+<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -199,6 +239,16 @@ struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bum
 };
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_744625948(TEXT("/Script/FMODStudioNiagara"),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo),
+=======
+struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics
+{
+	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODNiagaraEventPlayer, UFMODNiagaraEventPlayer::StaticClass, TEXT("UFMODNiagaraEventPlayer"), &Z_Registration_Info_UClass_UFMODNiagaraEventPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODNiagaraEventPlayer), 2562166983U) },
+	};
+};
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_1812583022(TEXT("/Script/FMODStudioNiagara"),
+	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudioNiagara_Source_FMODStudioNiagara_Public_FMODNiagaraEventPlayer_h_Statics::ClassInfo),
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

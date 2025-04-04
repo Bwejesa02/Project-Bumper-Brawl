@@ -14,7 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FMODSTUDIO_FMODBus_generated_h
 
+<<<<<<< HEAD
 #define FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_INCLASS \
+=======
+#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_INCLASS \
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 private: \
 	static void StaticRegisterNativesUFMODBus(); \
 	friend struct Z_Construct_UClass_UFMODBus_Statics; \
@@ -23,7 +27,11 @@ public: \
 	DECLARE_SERIALIZER(UFMODBus)
 
 
+<<<<<<< HEAD
 #define FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_STANDARD_CONSTRUCTORS \
+=======
+#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_STANDARD_CONSTRUCTORS \
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODBus(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODBus) \
@@ -37,12 +45,21 @@ public: \
 	NO_API virtual ~UFMODBus();
 
 
+<<<<<<< HEAD
 #define FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_11_PROLOG
 #define FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_INCLASS \
 	FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_STANDARD_CONSTRUCTORS \
+=======
+#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_11_PROLOG
+#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_INCLASS \
+	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h_14_STANDARD_CONSTRUCTORS \
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +67,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> FMODSTUDIO_API UClass* StaticClass<class UFMODBus>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< HEAD
 #define CURRENT_FILE_ID FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h
+=======
+#define CURRENT_FILE_ID FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBus_h
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

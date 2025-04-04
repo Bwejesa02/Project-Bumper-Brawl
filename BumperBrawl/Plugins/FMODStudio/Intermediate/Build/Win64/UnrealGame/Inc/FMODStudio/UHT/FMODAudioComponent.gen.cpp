@@ -46,9 +46,13 @@ struct Z_Construct_UEnum_FMODStudio_EFMODEventProperty_Statics
 		{ "ChannelPriority.Comment", "/* Priority to set on low-level channels created by this event instance (-1 to 256). */" },
 		{ "ChannelPriority.Name", "EFMODEventProperty::ChannelPriority" },
 		{ "ChannelPriority.ToolTip", "Priority to set on low-level channels created by this event instance (-1 to 256)." },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Event property\n" },
 #endif
+=======
+		{ "Comment", "// Event property\n" },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "Count.Comment", "/** Number of options */" },
 		{ "Count.Name", "EFMODEventProperty::Count" },
 		{ "Count.ToolTip", "Number of options" },
@@ -65,9 +69,13 @@ struct Z_Construct_UEnum_FMODStudio_EFMODEventProperty_Statics
 		{ "ScheduleLookahead.Comment", "/** Schedule look-ahead on the timeline in DSP clocks, or -1 for default. */" },
 		{ "ScheduleLookahead.Name", "EFMODEventProperty::ScheduleLookahead" },
 		{ "ScheduleLookahead.ToolTip", "Schedule look-ahead on the timeline in DSP clocks, or -1 for default." },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Event property" },
 #endif
+=======
+		{ "ToolTip", "Event property" },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
@@ -125,6 +133,7 @@ struct Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bOverrideAttenuation_MetaData[] = {
 		{ "Category", "FMOD|Attenuation" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Should we use Attenuation set in Studio or be able to modify in Editor. */" },
 #endif
@@ -132,10 +141,16 @@ struct Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Should we use Attenuation set in Studio or be able to modify in Editor." },
 #endif
+=======
+		{ "Comment", "/** Should we use Attenuation set in Studio or be able to modify in Editor. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Should we use Attenuation set in Studio or be able to modify in Editor." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MinimumDistance_MetaData[] = {
 		{ "Category", "FMOD|Attenuation" },
 		{ "ClampMin", "0.0" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Override the event's 3D minimum distance. */" },
 #endif
@@ -144,11 +159,18 @@ struct Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Override the event's 3D minimum distance." },
 #endif
+=======
+		{ "Comment", "/** Override the event's 3D minimum distance. */" },
+		{ "EditCondition", "bOverrideAttenuation" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Override the event's 3D minimum distance." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UIMin", "0.0" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaximumDistance_MetaData[] = {
 		{ "Category", "FMOD|Attenuation" },
 		{ "ClampMin", "0.0" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Override the event's 3D maximum distance. */" },
 #endif
@@ -157,6 +179,12 @@ struct Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Override the event's 3D maximum distance." },
 #endif
+=======
+		{ "Comment", "/** Override the event's 3D maximum distance. */" },
+		{ "EditCondition", "bOverrideAttenuation" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Override the event's 3D maximum distance." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UIMin", "0.0" },
 	};
 #endif // WITH_METADATA
@@ -230,6 +258,7 @@ struct Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableOcclusion_MetaData[] = {
 		{ "Category", "FMOD|Occlusion" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Enable Occlusion Settings. */" },
 #endif
@@ -259,6 +288,25 @@ struct Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether or not to enable complex geometry occlusion checks." },
 #endif
+=======
+		{ "Comment", "/** Enable Occlusion Settings. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Enable Occlusion Settings." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OcclusionTraceChannel_MetaData[] = {
+		{ "Category", "FMOD|Occlusion" },
+		{ "Comment", "/* Which trace channel to use for audio occlusion checks. */" },
+		{ "EditCondition", "bEnableOcclusion" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Which trace channel to use for audio occlusion checks." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseComplexCollisionForOcclusion_MetaData[] = {
+		{ "Category", "FMOD|Occlusion" },
+		{ "Comment", "/** Whether or not to enable complex geometry occlusion checks. */" },
+		{ "EditCondition", "bEnableOcclusion" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Whether or not to enable complex geometry occlusion checks." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static void NewProp_bEnableOcclusion_SetBit(void* Obj);
@@ -318,6 +366,7 @@ struct Z_Construct_UDelegateFunction_FMODStudio_OnEventStopped__DelegateSignatur
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** called when an event stops, either because it played to completion or because a Stop() call turned it off early */" },
 #endif
@@ -325,6 +374,11 @@ struct Z_Construct_UDelegateFunction_FMODStudio_OnEventStopped__DelegateSignatur
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "called when an event stops, either because it played to completion or because a Stop() call turned it off early" },
 #endif
+=======
+		{ "Comment", "/** called when an event stops, either because it played to completion or because a Stop() call turned it off early */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "called when an event stops, either because it played to completion or because a Stop() call turned it off early" },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -350,6 +404,7 @@ struct Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSignatur
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** called when a sound stops */" },
 #endif
@@ -357,6 +412,11 @@ struct Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSignatur
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "called when a sound stops" },
 #endif
+=======
+		{ "Comment", "/** called when a sound stops */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "called when a sound stops" },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -387,6 +447,7 @@ struct Z_Construct_UDelegateFunction_FMODStudio_OnTimelineMarker__DelegateSignat
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** called when we reach a named marker on the timeline */" },
 #endif
@@ -394,6 +455,11 @@ struct Z_Construct_UDelegateFunction_FMODStudio_OnTimelineMarker__DelegateSignat
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "called when we reach a named marker on the timeline" },
 #endif
+=======
+		{ "Comment", "/** called when we reach a named marker on the timeline */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "called when we reach a named marker on the timeline" },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_Name;
@@ -447,6 +513,7 @@ struct Z_Construct_UDelegateFunction_FMODStudio_OnTimelineBeat__DelegateSignatur
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** called when we reach a beat on the timeline */" },
 #endif
@@ -454,6 +521,11 @@ struct Z_Construct_UDelegateFunction_FMODStudio_OnTimelineBeat__DelegateSignatur
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "called when we reach a beat on the timeline" },
 #endif
+=======
+		{ "Comment", "/** called when we reach a beat on the timeline */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "called when we reach a beat on the timeline" },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Bar;
@@ -523,6 +595,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetLength_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the event length in milliseconds. */" },
 #endif
@@ -530,6 +603,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetLength_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the event length in milliseconds." },
 #endif
+=======
+		{ "Comment", "/** Get the event length in milliseconds. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Get the event length in milliseconds." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -572,6 +650,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetParameter_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Will be deprecated in FMOD 2.01, use `GetParameterValue(FName, float, float)` instead.\n     * Get parameter value from the Event.\n    */" },
 #endif
@@ -579,6 +658,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetParameter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Will be deprecated in FMOD 2.01, use `GetParameterValue(FName, float, float)` instead.\nGet parameter value from the Event." },
 #endif
+=======
+		{ "Comment", "/** Will be deprecated in FMOD 2.01, use `GetParameterValue(FName, float, float)` instead.\n     * Get parameter value from the Event.\n    */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Will be deprecated in FMOD 2.01, use `GetParameterValue(FName, float, float)` instead.\nGet parameter value from the Event." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FNamePropertyParams NewProp_Name;
@@ -626,6 +710,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetParameterValue_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get parameter value from the Event.\n     * @param Name - Name of parameter\n     * @param UserValue - Parameter value as set from the public API.\n     * @param FinalValue - Final combined parameter value.\n    */" },
 #endif
@@ -633,6 +718,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetParameterValue_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get parameter value from the Event.\n@param Name - Name of parameter\n@param UserValue - Parameter value as set from the public API.\n@param FinalValue - Final combined parameter value." },
 #endif
+=======
+		{ "Comment", "/** Get parameter value from the Event.\n     * @param Name - Name of parameter\n     * @param UserValue - Parameter value as set from the public API.\n     * @param FinalValue - Final combined parameter value.\n    */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Get parameter value from the Event.\n@param Name - Name of parameter\n@param UserValue - Parameter value as set from the public API.\n@param FinalValue - Final combined parameter value." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FNamePropertyParams NewProp_Name;
@@ -683,6 +773,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the paused state of the audio component. Returns false if internal getPaused query fails. */" },
 #endif
@@ -690,6 +781,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetPaused_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the paused state of the audio component. Returns false if internal getPaused query fails." },
 #endif
+=======
+		{ "Comment", "/** Get the paused state of the audio component. Returns false if internal getPaused query fails. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Get the paused state of the audio component. Returns false if internal getPaused query fails." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -737,6 +833,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetProperty_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get a property of the Event. */" },
 #endif
@@ -744,6 +841,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetProperty_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get a property of the Event." },
 #endif
+=======
+		{ "Comment", "/** Get a property of the Event. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Get a property of the Event." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_Property;
@@ -751,7 +853,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetProperty_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+<<<<<<< HEAD
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODAudioComponent_GetProperty_Statics::NewProp_Property = { "Property", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODAudioComponent_eventGetProperty_Parms, Property), Z_Construct_UEnum_FMODStudio_EFMODEventProperty, METADATA_PARAMS(0, nullptr) }; // 1799004296
+=======
+const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODAudioComponent_GetProperty_Statics::NewProp_Property = { "Property", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODAudioComponent_eventGetProperty_Parms, Property), Z_Construct_UEnum_FMODStudio_EFMODEventProperty, METADATA_PARAMS(0, nullptr) }; // 763397869
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODAudioComponent_GetProperty_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODAudioComponent_eventGetProperty_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODAudioComponent_GetProperty_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODAudioComponent_GetProperty_Statics::NewProp_Property,
@@ -789,6 +895,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetTimelinePosition_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the timeline position in milliseconds. */" },
 #endif
@@ -796,6 +903,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_GetTimelinePosition_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the timeline position in milliseconds." },
 #endif
+=======
+		{ "Comment", "/** Get the timeline position in milliseconds. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Get the timeline position in milliseconds." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -837,6 +949,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_IsPlaying_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Return true if this component is currently playing an event. */" },
 #endif
@@ -844,6 +957,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_IsPlaying_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return true if this component is currently playing an event." },
 #endif
+=======
+		{ "Comment", "/** Return true if this component is currently playing an event. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Return true if this component is currently playing an event." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -886,6 +1004,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_KeyOff_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**  Allow an event to continue past a sustain point. */" },
 #endif
@@ -893,6 +1012,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_KeyOff_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Allow an event to continue past a sustain point." },
 #endif
+=======
+		{ "Comment", "/**  Allow an event to continue past a sustain point. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Allow an event to continue past a sustain point." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -922,6 +1046,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_Play_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Start a sound playing on an audio component. */" },
 #endif
@@ -929,6 +1054,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_Play_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Start a sound playing on an audio component." },
 #endif
+=======
+		{ "Comment", "/** Start a sound playing on an audio component. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Start a sound playing on an audio component." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -992,6 +1122,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetEvent_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** New Event to be used by the FMODAudioComponent. */" },
 #endif
@@ -999,6 +1130,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetEvent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "New Event to be used by the FMODAudioComponent." },
 #endif
+=======
+		{ "Comment", "/** New Event to be used by the FMODAudioComponent. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "New Event to be used by the FMODAudioComponent." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_NewEvent;
@@ -1042,6 +1178,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetParameter_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set a parameter of the Event. */" },
 #endif
@@ -1049,6 +1186,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetParameter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set a parameter of the Event." },
 #endif
+=======
+		{ "Comment", "/** Set a parameter of the Event. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Set a parameter of the Event." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FNamePropertyParams NewProp_Name;
@@ -1095,6 +1237,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetPaused_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Pause/Unpause an audio component. */" },
 #endif
@@ -1102,6 +1245,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetPaused_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Pause/Unpause an audio component." },
 #endif
+=======
+		{ "Comment", "/** Pause/Unpause an audio component. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Pause/Unpause an audio component." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static void NewProp_paused_SetBit(void* Obj);
@@ -1149,6 +1297,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetPitch_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets the pitch multiplier. */" },
 #endif
@@ -1156,6 +1305,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetPitch_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the pitch multiplier." },
 #endif
+=======
+		{ "Comment", "/** Sets the pitch multiplier. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Sets the pitch multiplier." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_pitch;
@@ -1198,6 +1352,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetProgrammerSoundName_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set the sound name to use for programmer sound.  Will look up the name in any loaded audio table. */" },
 #endif
@@ -1205,6 +1360,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetProgrammerSoundName_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the sound name to use for programmer sound.  Will look up the name in any loaded audio table." },
 #endif
+=======
+		{ "Comment", "/** Set the sound name to use for programmer sound.  Will look up the name in any loaded audio table. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Set the sound name to use for programmer sound.  Will look up the name in any loaded audio table." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_Value;
@@ -1248,6 +1408,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetProperty_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set a property of the Event. */" },
 #endif
@@ -1255,6 +1416,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetProperty_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set a property of the Event." },
 #endif
+=======
+		{ "Comment", "/** Set a property of the Event. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Set a property of the Event." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_Property;
@@ -1262,7 +1428,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetProperty_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+<<<<<<< HEAD
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODAudioComponent_SetProperty_Statics::NewProp_Property = { "Property", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODAudioComponent_eventSetProperty_Parms, Property), Z_Construct_UEnum_FMODStudio_EFMODEventProperty, METADATA_PARAMS(0, nullptr) }; // 1799004296
+=======
+const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODAudioComponent_SetProperty_Statics::NewProp_Property = { "Property", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODAudioComponent_eventSetProperty_Parms, Property), Z_Construct_UEnum_FMODStudio_EFMODEventProperty, METADATA_PARAMS(0, nullptr) }; // 763397869
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODAudioComponent_SetProperty_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODAudioComponent_eventSetProperty_Parms, Value), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODAudioComponent_SetProperty_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODAudioComponent_SetProperty_Statics::NewProp_Property,
@@ -1301,6 +1471,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetTimelinePosition_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set the timeline position in milliseconds. */" },
 #endif
@@ -1308,6 +1479,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetTimelinePosition_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the timeline position in milliseconds." },
 #endif
+=======
+		{ "Comment", "/** Set the timeline position in milliseconds. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Set the timeline position in milliseconds." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Time;
@@ -1350,6 +1526,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetVolume_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets the volume level. */" },
 #endif
@@ -1357,6 +1534,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_SetVolume_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the volume level." },
 #endif
+=======
+		{ "Comment", "/** Sets the volume level. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Sets the volume level." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_volume;
@@ -1395,6 +1577,7 @@ struct Z_Construct_UFunction_UFMODAudioComponent_Stop_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Components" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Stop an audio component playing its sound cue, issue any delegates if needed. */" },
 #endif
@@ -1402,6 +1585,11 @@ struct Z_Construct_UFunction_UFMODAudioComponent_Stop_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stop an audio component playing its sound cue, issue any delegates if needed." },
 #endif
+=======
+		{ "Comment", "/** Stop an audio component playing its sound cue, issue any delegates if needed. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Stop an audio component playing its sound cue, issue any delegates if needed." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -1464,13 +1652,18 @@ struct Z_Construct_UClass_UFMODAudioComponent_Statics
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "Audio Common" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Plays FMOD Studio events.\n */" },
 #endif
+=======
+		{ "Comment", "/**\n * Plays FMOD Studio events.\n */" },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "HideCategories", "Object ActorComponent Physics Rendering Mobility LOD PhysicsVolume" },
 		{ "IncludePath", "FMODAudioComponent.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Plays FMOD Studio events." },
 #endif
@@ -1588,6 +1781,75 @@ struct Z_Construct_UClass_UFMODAudioComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Custom Occlusion Details." },
 #endif
+=======
+		{ "ToolTip", "Plays FMOD Studio events." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Event_MetaData[] = {
+		{ "Category", "FMODAudio" },
+		{ "Comment", "/** The event asset to use for this sound. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "The event asset to use for this sound." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ParameterCache_MetaData[] = {
+		{ "Category", "FMODAudio" },
+		{ "Comment", "/** Event parameter cache. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Event parameter cache." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProgrammerSoundName_MetaData[] = {
+		{ "Category", "FMODAudio" },
+		{ "Comment", "/** Sound name used for programmer sound.  Will look up the name in any loaded audio table. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Sound name used for programmer sound.  Will look up the name in any loaded audio table." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableTimelineCallbacks_MetaData[] = {
+		{ "Category", "FMODAudio" },
+		{ "Comment", "/** Enable timeline callbacks for this sound, so that OnTimelineMarker and OnTimelineBeat can be used. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Enable timeline callbacks for this sound, so that OnTimelineMarker and OnTimelineBeat can be used." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAutoDestroy_MetaData[] = {
+		{ "Comment", "/** Auto destroy this component on completion. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Auto destroy this component on completion." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bStopWhenOwnerDestroyed_MetaData[] = {
+		{ "Comment", "/** Stop sound when owner is destroyed. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Stop sound when owner is destroyed." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnEventStopped_MetaData[] = {
+		{ "Comment", "/** Called when an event stops, either because it played to completion or because a Stop() call turned it off early. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Called when an event stops, either because it played to completion or because a Stop() call turned it off early." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnSoundStopped_MetaData[] = {
+		{ "Comment", "/** Called when a sound stops. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Called when a sound stops." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnTimelineMarker_MetaData[] = {
+		{ "Comment", "/** Called when we reach a named marker (if bEnableTimelineCallbacks is true). */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Called when we reach a named marker (if bEnableTimelineCallbacks is true)." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnTimelineBeat_MetaData[] = {
+		{ "Comment", "/** Called when we reach a beat of a tempo (if bEnableTimelineCallbacks is true). */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "Called when we reach a beat of a tempo (if bEnableTimelineCallbacks is true)." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttenuationDetails_MetaData[] = {
+		{ "Category", "FMODAudio" },
+		{ "Comment", "/** FMOD Custom Attenuation Details. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "FMOD Custom Attenuation Details." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OcclusionDetails_MetaData[] = {
+		{ "Category", "FMODAudio" },
+		{ "Comment", "/** FMOD Custom Occlusion Details. */" },
+		{ "ModuleRelativePath", "Classes/FMODAudioComponent.h" },
+		{ "ToolTip", "FMOD Custom Occlusion Details." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Event;
@@ -1610,6 +1872,7 @@ struct Z_Construct_UClass_UFMODAudioComponent_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+<<<<<<< HEAD
 		{ &Z_Construct_UFunction_UFMODAudioComponent_GetLength, "GetLength" }, // 2632573980
 		{ &Z_Construct_UFunction_UFMODAudioComponent_GetParameter, "GetParameter" }, // 707860473
 		{ &Z_Construct_UFunction_UFMODAudioComponent_GetParameterValue, "GetParameterValue" }, // 682900521
@@ -1629,6 +1892,27 @@ struct Z_Construct_UClass_UFMODAudioComponent_Statics
 		{ &Z_Construct_UFunction_UFMODAudioComponent_SetTimelinePosition, "SetTimelinePosition" }, // 2223847244
 		{ &Z_Construct_UFunction_UFMODAudioComponent_SetVolume, "SetVolume" }, // 3737154841
 		{ &Z_Construct_UFunction_UFMODAudioComponent_Stop, "Stop" }, // 313635035
+=======
+		{ &Z_Construct_UFunction_UFMODAudioComponent_GetLength, "GetLength" }, // 907493481
+		{ &Z_Construct_UFunction_UFMODAudioComponent_GetParameter, "GetParameter" }, // 3779651566
+		{ &Z_Construct_UFunction_UFMODAudioComponent_GetParameterValue, "GetParameterValue" }, // 1634352280
+		{ &Z_Construct_UFunction_UFMODAudioComponent_GetPaused, "GetPaused" }, // 3572271871
+		{ &Z_Construct_UFunction_UFMODAudioComponent_GetProperty, "GetProperty" }, // 2999959289
+		{ &Z_Construct_UFunction_UFMODAudioComponent_GetTimelinePosition, "GetTimelinePosition" }, // 3036933166
+		{ &Z_Construct_UFunction_UFMODAudioComponent_IsPlaying, "IsPlaying" }, // 3939027928
+		{ &Z_Construct_UFunction_UFMODAudioComponent_KeyOff, "KeyOff" }, // 2722612477
+		{ &Z_Construct_UFunction_UFMODAudioComponent_Play, "Play" }, // 236258919
+		{ &Z_Construct_UFunction_UFMODAudioComponent_Release, "Release" }, // 2768686108
+		{ &Z_Construct_UFunction_UFMODAudioComponent_SetEvent, "SetEvent" }, // 1413966610
+		{ &Z_Construct_UFunction_UFMODAudioComponent_SetParameter, "SetParameter" }, // 3242226325
+		{ &Z_Construct_UFunction_UFMODAudioComponent_SetPaused, "SetPaused" }, // 1189035992
+		{ &Z_Construct_UFunction_UFMODAudioComponent_SetPitch, "SetPitch" }, // 2904731814
+		{ &Z_Construct_UFunction_UFMODAudioComponent_SetProgrammerSoundName, "SetProgrammerSoundName" }, // 404993756
+		{ &Z_Construct_UFunction_UFMODAudioComponent_SetProperty, "SetProperty" }, // 829773910
+		{ &Z_Construct_UFunction_UFMODAudioComponent_SetTimelinePosition, "SetTimelinePosition" }, // 519891160
+		{ &Z_Construct_UFunction_UFMODAudioComponent_SetVolume, "SetVolume" }, // 2120757507
+		{ &Z_Construct_UFunction_UFMODAudioComponent_Stop, "Stop" }, // 703726316
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -1656,12 +1940,21 @@ void Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_bStopWhenOwnerDestr
 	((UFMODAudioComponent*)Obj)->bStopWhenOwnerDestroyed = 1;
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_bStopWhenOwnerDestroyed = { "bStopWhenOwnerDestroyed", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(uint8), sizeof(UFMODAudioComponent), &Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_bStopWhenOwnerDestroyed_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bStopWhenOwnerDestroyed_MetaData), NewProp_bStopWhenOwnerDestroyed_MetaData) };
+<<<<<<< HEAD
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_OnEventStopped = { "OnEventStopped", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnEventStopped), Z_Construct_UDelegateFunction_FMODStudio_OnEventStopped__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnEventStopped_MetaData), NewProp_OnEventStopped_MetaData) }; // 2561533074
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_OnSoundStopped = { "OnSoundStopped", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnSoundStopped), Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnSoundStopped_MetaData), NewProp_OnSoundStopped_MetaData) }; // 3846600440
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_OnTimelineMarker = { "OnTimelineMarker", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnTimelineMarker), Z_Construct_UDelegateFunction_FMODStudio_OnTimelineMarker__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnTimelineMarker_MetaData), NewProp_OnTimelineMarker_MetaData) }; // 317966033
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_OnTimelineBeat = { "OnTimelineBeat", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnTimelineBeat), Z_Construct_UDelegateFunction_FMODStudio_OnTimelineBeat__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnTimelineBeat_MetaData), NewProp_OnTimelineBeat_MetaData) }; // 2352841600
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_AttenuationDetails = { "AttenuationDetails", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, AttenuationDetails), Z_Construct_UScriptStruct_FFMODAttenuationDetails, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttenuationDetails_MetaData), NewProp_AttenuationDetails_MetaData) }; // 3538843774
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_OcclusionDetails = { "OcclusionDetails", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OcclusionDetails), Z_Construct_UScriptStruct_FFMODOcclusionDetails, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OcclusionDetails_MetaData), NewProp_OcclusionDetails_MetaData) }; // 3259186115
+=======
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_OnEventStopped = { "OnEventStopped", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnEventStopped), Z_Construct_UDelegateFunction_FMODStudio_OnEventStopped__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnEventStopped_MetaData), NewProp_OnEventStopped_MetaData) }; // 2566834760
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_OnSoundStopped = { "OnSoundStopped", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnSoundStopped), Z_Construct_UDelegateFunction_FMODStudio_OnSoundStopped__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnSoundStopped_MetaData), NewProp_OnSoundStopped_MetaData) }; // 325791842
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_OnTimelineMarker = { "OnTimelineMarker", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnTimelineMarker), Z_Construct_UDelegateFunction_FMODStudio_OnTimelineMarker__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnTimelineMarker_MetaData), NewProp_OnTimelineMarker_MetaData) }; // 3712705847
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_OnTimelineBeat = { "OnTimelineBeat", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OnTimelineBeat), Z_Construct_UDelegateFunction_FMODStudio_OnTimelineBeat__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnTimelineBeat_MetaData), NewProp_OnTimelineBeat_MetaData) }; // 442808488
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_AttenuationDetails = { "AttenuationDetails", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, AttenuationDetails), Z_Construct_UScriptStruct_FFMODAttenuationDetails, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttenuationDetails_MetaData), NewProp_AttenuationDetails_MetaData) }; // 1627690234
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_OcclusionDetails = { "OcclusionDetails", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFMODAudioComponent, OcclusionDetails), Z_Construct_UScriptStruct_FFMODOcclusionDetails, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OcclusionDetails_MetaData), NewProp_OcclusionDetails_MetaData) }; // 3808711166
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFMODAudioComponent_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_Event,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFMODAudioComponent_Statics::NewProp_ParameterCache_ValueProp,
@@ -1716,6 +2009,7 @@ UFMODAudioComponent::~UFMODAudioComponent() {}
 // End Class UFMODAudioComponent
 
 // Begin Registration
+<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
@@ -1733,5 +2027,24 @@ static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Do
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ScriptStructInfo),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::EnumInfo));
+=======
+struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics
+{
+	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
+		{ EFMODEventProperty_StaticEnum, TEXT("EFMODEventProperty"), &Z_Registration_Info_UEnum_EFMODEventProperty, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 763397869U) },
+	};
+	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
+		{ FFMODAttenuationDetails::StaticStruct, Z_Construct_UScriptStruct_FFMODAttenuationDetails_Statics::NewStructOps, TEXT("FMODAttenuationDetails"), &Z_Registration_Info_UScriptStruct_FMODAttenuationDetails, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODAttenuationDetails), 1627690234U) },
+		{ FFMODOcclusionDetails::StaticStruct, Z_Construct_UScriptStruct_FFMODOcclusionDetails_Statics::NewStructOps, TEXT("FMODOcclusionDetails"), &Z_Registration_Info_UScriptStruct_FMODOcclusionDetails, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODOcclusionDetails), 3808711166U) },
+	};
+	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODAudioComponent, UFMODAudioComponent::StaticClass, TEXT("UFMODAudioComponent"), &Z_Registration_Info_UClass_UFMODAudioComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioComponent), 2223025299U) },
+	};
+};
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_4089227247(TEXT("/Script/FMODStudio"),
+	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAudioComponent_h_Statics::EnumInfo));
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

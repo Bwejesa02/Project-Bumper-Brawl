@@ -29,6 +29,7 @@ struct Z_Construct_UClass_UFMODSnapshot_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * FMOD Snapshot Asset.\n */" },
 #endif
@@ -37,6 +38,12 @@ struct Z_Construct_UClass_UFMODSnapshot_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Snapshot Asset." },
 #endif
+=======
+		{ "Comment", "/**\n * FMOD Snapshot Asset.\n */" },
+		{ "IncludePath", "FMODSnapshot.h" },
+		{ "ModuleRelativePath", "Classes/FMODSnapshot.h" },
+		{ "ToolTip", "FMOD Snapshot Asset." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
@@ -82,6 +89,7 @@ UFMODSnapshot::~UFMODSnapshot() {}
 // End Class UFMODSnapshot
 
 // Begin Registration
+<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshot_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -90,6 +98,16 @@ struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bum
 };
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshot_h_1000882754(TEXT("/Script/FMODStudio"),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshot_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshot_h_Statics::ClassInfo),
+=======
+struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshot_h_Statics
+{
+	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODSnapshot, UFMODSnapshot::StaticClass, TEXT("UFMODSnapshot"), &Z_Registration_Info_UClass_UFMODSnapshot, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODSnapshot), 2055643507U) },
+	};
+};
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshot_h_246521310(TEXT("/Script/FMODStudio"),
+	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshot_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODSnapshot_h_Statics::ClassInfo),
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

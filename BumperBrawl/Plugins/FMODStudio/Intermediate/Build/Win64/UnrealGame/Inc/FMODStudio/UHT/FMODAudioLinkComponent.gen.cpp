@@ -45,6 +45,7 @@ struct Z_Construct_UClass_UFMODAudioLinkComponent_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Sound_MetaData[] = {
 		{ "Category", "Sound" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The sound to be played */" },
 #endif
@@ -52,6 +53,11 @@ struct Z_Construct_UClass_UFMODAudioLinkComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The sound to be played" },
 #endif
+=======
+		{ "Comment", "/** The sound to be played */" },
+		{ "ModuleRelativePath", "" },
+		{ "ToolTip", "The sound to be played" },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AudioComponent_MetaData[] = {
 		{ "EditInline", "true" },
@@ -119,6 +125,7 @@ UFMODAudioLinkComponent::~UFMODAudioLinkComponent() {}
 // End Class UFMODAudioLinkComponent
 
 // Begin Registration
+<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -127,6 +134,16 @@ struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bum
 };
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_2987021057(TEXT("/Script/FMODStudio"),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo),
+=======
+struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics
+{
+	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODAudioLinkComponent, UFMODAudioLinkComponent::StaticClass, TEXT("UFMODAudioLinkComponent"), &Z_Registration_Info_UClass_UFMODAudioLinkComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioLinkComponent), 4140281376U) },
+	};
+};
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_848368429(TEXT("/Script/FMODStudio"),
+	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkComponent_h_Statics::ClassInfo),
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

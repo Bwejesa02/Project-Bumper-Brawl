@@ -31,6 +31,7 @@ struct Z_Construct_UClass_UFMODAsset_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * FMOD Asset.\n */" },
 #endif
@@ -48,6 +49,17 @@ struct Z_Construct_UClass_UFMODAsset_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The unique Guid, which matches the one exported from FMOD Studio" },
 #endif
+=======
+		{ "Comment", "/**\n * FMOD Asset.\n */" },
+		{ "IncludePath", "FMODAsset.h" },
+		{ "ModuleRelativePath", "Classes/FMODAsset.h" },
+		{ "ToolTip", "FMOD Asset." },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AssetGuid_MetaData[] = {
+		{ "Comment", "/** The unique Guid, which matches the one exported from FMOD Studio */" },
+		{ "ModuleRelativePath", "Classes/FMODAsset.h" },
+		{ "ToolTip", "The unique Guid, which matches the one exported from FMOD Studio" },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_AssetGuid;
@@ -100,6 +112,7 @@ UFMODAsset::~UFMODAsset() {}
 // End Class UFMODAsset
 
 // Begin Registration
+<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -108,6 +121,16 @@ struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bum
 };
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h_3239715401(TEXT("/Script/FMODStudio"),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h_Statics::ClassInfo),
+=======
+struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h_Statics
+{
+	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODAsset, UFMODAsset::StaticClass, TEXT("UFMODAsset"), &Z_Registration_Info_UClass_UFMODAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAsset), 2065512794U) },
+	};
+};
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h_51459683(TEXT("/Script/FMODStudio"),
+	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAsset_h_Statics::ClassInfo),
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

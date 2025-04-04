@@ -29,6 +29,7 @@ struct Z_Construct_UClass_UFMODPort_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * FMOD Port Asset.\n */" },
 #endif
@@ -37,6 +38,12 @@ struct Z_Construct_UClass_UFMODPort_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FMOD Port Asset." },
 #endif
+=======
+		{ "Comment", "/**\n * FMOD Port Asset.\n */" },
+		{ "IncludePath", "FMODPort.h" },
+		{ "ModuleRelativePath", "Classes/FMODPort.h" },
+		{ "ToolTip", "FMOD Port Asset." },
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
@@ -82,6 +89,7 @@ UFMODPort::~UFMODPort() {}
 // End Class UFMODPort
 
 // Begin Registration
+<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -90,6 +98,16 @@ struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bum
 };
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_3559520299(TEXT("/Script/FMODStudio"),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_Statics::ClassInfo),
+=======
+struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_Statics
+{
+	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
+		{ Z_Construct_UClass_UFMODPort, UFMODPort::StaticClass, TEXT("UFMODPort"), &Z_Registration_Info_UClass_UFMODPort, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODPort), 2419932536U) },
+	};
+};
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_1593678207(TEXT("/Script/FMODStudio"),
+	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODPort_h_Statics::ClassInfo),
+>>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
