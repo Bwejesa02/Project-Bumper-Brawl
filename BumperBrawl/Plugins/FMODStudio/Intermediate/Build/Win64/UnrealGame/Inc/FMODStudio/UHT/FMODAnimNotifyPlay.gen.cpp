@@ -37,7 +37,6 @@ struct Z_Construct_UClass_UFMODAnimNotifyPlay_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bFollow_MetaData[] = {
 		{ "Category", "FMOD Anim Notify" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// If this sound should follow its owner\n" },
 #endif
@@ -66,24 +65,6 @@ struct Z_Construct_UClass_UFMODAnimNotifyPlay_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sound to Play" },
 #endif
-=======
-		{ "Comment", "// If this sound should follow its owner\n" },
-		{ "ModuleRelativePath", "Classes/FMODAnimNotifyPlay.h" },
-		{ "ToolTip", "If this sound should follow its owner" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttachName_MetaData[] = {
-		{ "Category", "FMOD Anim Notify" },
-		{ "Comment", "// Socket or bone name to attach sound to\n" },
-		{ "EditCondition", "bFollow" },
-		{ "ModuleRelativePath", "Classes/FMODAnimNotifyPlay.h" },
-		{ "ToolTip", "Socket or bone name to attach sound to" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Event_MetaData[] = {
-		{ "Category", "FMOD Anim Notify" },
-		{ "Comment", "// Sound to Play\n" },
-		{ "ModuleRelativePath", "Classes/FMODAnimNotifyPlay.h" },
-		{ "ToolTip", "Sound to Play" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static void NewProp_bFollow_SetBit(void* Obj);
@@ -147,7 +128,6 @@ UFMODAnimNotifyPlay::~UFMODAnimNotifyPlay() {}
 // End Class UFMODAnimNotifyPlay
 
 // Begin Registration
-<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -156,16 +136,6 @@ struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bum
 };
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_51652956(TEXT("/Script/FMODStudio"),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_Statics::ClassInfo),
-=======
-struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_Statics
-{
-	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAnimNotifyPlay, UFMODAnimNotifyPlay::StaticClass, TEXT("UFMODAnimNotifyPlay"), &Z_Registration_Info_UClass_UFMODAnimNotifyPlay, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAnimNotifyPlay), 775390397U) },
-	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_2643177914(TEXT("/Script/FMODStudio"),
-	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODAnimNotifyPlay_h_Statics::ClassInfo),
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

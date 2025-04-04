@@ -39,7 +39,6 @@ struct Z_Construct_UClass_UFMODAudioLinkSettings_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bShouldClearBufferOnReceipt_MetaData[] = {
 		{ "Category", "default" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If this is set, the receiving code will clear the buffer after it's read, so it's not rendered by Unreal. Only applies if running both renderers at once.  */" },
 #endif
@@ -76,28 +75,6 @@ struct Z_Construct_UClass_UFMODAudioLinkSettings_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Once the SoftObjectReference has been resolved, attach the reference here so it's owned." },
 #endif
-=======
-		{ "Comment", "/** If this is set, the receiving code will clear the buffer after it's read, so it's not rendered by Unreal. Only applies if running both renderers at once.  */" },
-		{ "ModuleRelativePath", "" },
-		{ "ToolTip", "If this is set, the receiving code will clear the buffer after it's read, so it's not rendered by Unreal. Only applies if running both renderers at once." },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProducerToConsumerBufferRatio_MetaData[] = {
-		{ "Category", "default" },
-		{ "Comment", "/** This is the ratio of producer to consumer buffer size, 2.0 means its twice as big as the consumer buffer.  */" },
-		{ "ModuleRelativePath", "" },
-		{ "ToolTip", "This is the ratio of producer to consumer buffer size, 2.0 means its twice as big as the consumer buffer." },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InitialSilenceFillRatio_MetaData[] = {
-		{ "Category", "default" },
-		{ "Comment", "/** Ratio of initial buffer to fill with silence ahead of consumption. Adjusting this can resolve starvation at the cost of added latency. */" },
-		{ "ModuleRelativePath", "" },
-		{ "ToolTip", "Ratio of initial buffer to fill with silence ahead of consumption. Adjusting this can resolve starvation at the cost of added latency." },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LinkEventResolved_MetaData[] = {
-		{ "Comment", "/** Once the SoftObjectReference has been resolved, attach the reference here so it's owned. */" },
-		{ "ModuleRelativePath", "" },
-		{ "ToolTip", "Once the SoftObjectReference has been resolved, attach the reference here so it's owned." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FSoftObjectPropertyParams NewProp_LinkEvent;
@@ -168,7 +145,6 @@ UFMODAudioLinkSettings::~UFMODAudioLinkSettings() {}
 // End Class UFMODAudioLinkSettings
 
 // Begin Registration
-<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -177,16 +153,6 @@ struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bum
 };
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_1413025895(TEXT("/Script/FMODStudio"),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_Statics::ClassInfo),
-=======
-struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_Statics
-{
-	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODAudioLinkSettings, UFMODAudioLinkSettings::StaticClass, TEXT("UFMODAudioLinkSettings"), &Z_Registration_Info_UClass_UFMODAudioLinkSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODAudioLinkSettings), 3713581247U) },
-	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_2572298399(TEXT("/Script/FMODStudio"),
-	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODAudioLink_Public_FMODAudioLinkSettings_h_Statics::ClassInfo),
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

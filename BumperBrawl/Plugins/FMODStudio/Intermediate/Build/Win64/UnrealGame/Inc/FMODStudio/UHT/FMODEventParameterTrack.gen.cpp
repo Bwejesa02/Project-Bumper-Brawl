@@ -31,7 +31,6 @@ struct Z_Construct_UClass_UFMODEventParameterTrack_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Handles manipulation of event parameters in a movie scene. */" },
 #endif
@@ -50,18 +49,6 @@ struct Z_Construct_UClass_UFMODEventParameterTrack_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The sections owned by this track." },
 #endif
-=======
-		{ "Comment", "/** Handles manipulation of event parameters in a movie scene. */" },
-		{ "IncludePath", "Sequencer/FMODEventParameterTrack.h" },
-		{ "ModuleRelativePath", "Private/Sequencer/FMODEventParameterTrack.h" },
-		{ "ToolTip", "Handles manipulation of event parameters in a movie scene." },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Sections_MetaData[] = {
-		{ "Comment", "/** The sections owned by this track. */" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Private/Sequencer/FMODEventParameterTrack.h" },
-		{ "ToolTip", "The sections owned by this track." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Sections_Inner;
@@ -121,7 +108,6 @@ UFMODEventParameterTrack::~UFMODEventParameterTrack() {}
 // End Class UFMODEventParameterTrack
 
 // Begin Registration
-<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
@@ -130,16 +116,6 @@ struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bum
 };
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_1962114496(TEXT("/Script/FMODStudio"),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics::ClassInfo),
-=======
-struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics
-{
-	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFMODEventParameterTrack, UFMODEventParameterTrack::StaticClass, TEXT("UFMODEventParameterTrack"), &Z_Registration_Info_UClass_UFMODEventParameterTrack, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODEventParameterTrack), 3096601640U) },
-	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_3331226884(TEXT("/Script/FMODStudio"),
-	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Private_Sequencer_FMODEventParameterTrack_h_Statics::ClassInfo),
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

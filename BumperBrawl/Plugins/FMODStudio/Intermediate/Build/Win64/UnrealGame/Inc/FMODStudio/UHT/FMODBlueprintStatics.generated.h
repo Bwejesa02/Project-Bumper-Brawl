@@ -23,22 +23,14 @@ struct FFMODEventInstance;
 #endif
 #define FMODSTUDIO_FMODBlueprintStatics_generated_h
 
-<<<<<<< HEAD
 #define FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_28_GENERATED_BODY \
-=======
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_28_GENERATED_BODY \
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	friend struct Z_Construct_UScriptStruct_FFMODEventInstance_Statics; \
 	FMODSTUDIO_API static class UScriptStruct* StaticStruct();
 
 
 template<> FMODSTUDIO_API UScriptStruct* StaticStruct<struct FFMODEventInstance>();
 
-<<<<<<< HEAD
 #define FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_RPC_WRAPPERS \
-=======
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_RPC_WRAPPERS \
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	DECLARE_FUNCTION(execSetLocale); \
 	DECLARE_FUNCTION(execMixerResume); \
 	DECLARE_FUNCTION(execMixerSuspend); \
@@ -81,11 +73,7 @@ template<> FMODSTUDIO_API UScriptStruct* StaticStruct<struct FFMODEventInstance>
 	DECLARE_FUNCTION(execPlayEvent2D);
 
 
-<<<<<<< HEAD
 #define FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_INCLASS \
-=======
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_INCLASS \
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 private: \
 	static void StaticRegisterNativesUFMODBlueprintStatics(); \
 	friend struct Z_Construct_UClass_UFMODBlueprintStatics_Statics; \
@@ -94,11 +82,7 @@ public: \
 	DECLARE_SERIALIZER(UFMODBlueprintStatics)
 
 
-<<<<<<< HEAD
 #define FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_STANDARD_CONSTRUCTORS \
-=======
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_STANDARD_CONSTRUCTORS \
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UFMODBlueprintStatics(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFMODBlueprintStatics) \
@@ -112,7 +96,6 @@ public: \
 	NO_API virtual ~UFMODBlueprintStatics();
 
 
-<<<<<<< HEAD
 #define FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_40_PROLOG
 #define FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -120,15 +103,6 @@ public: \
 	FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_RPC_WRAPPERS \
 	FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_INCLASS \
 	FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_STANDARD_CONSTRUCTORS \
-=======
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_40_PROLOG
-#define FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_GENERATED_BODY_LEGACY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_RPC_WRAPPERS \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_INCLASS \
-	FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_43_STANDARD_CONSTRUCTORS \
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -136,11 +110,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> FMODSTUDIO_API UClass* StaticClass<class UFMODBlueprintStatics>();
 
 #undef CURRENT_FILE_ID
-<<<<<<< HEAD
 #define CURRENT_FILE_ID FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h
-=======
-#define CURRENT_FILE_ID FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 
 
 #define FOREACH_ENUM_EFMOD_STUDIO_STOP_MODE(op) \

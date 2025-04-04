@@ -144,7 +144,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Bus" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Mute/Unmute this bus\n\x09 * @param Bus - bus to use\n\x09 * @param bMute - mute\n\x09 */" },
 #endif
@@ -152,11 +151,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Mute/Unmute this bus\n@param Bus - bus to use\n@param bMute - mute" },
 #endif
-=======
-		{ "Comment", "/** Mute/Unmute this bus\n\x09 * @param Bus - bus to use\n\x09 * @param bMute - mute\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Mute/Unmute this bus\n@param Bus - bus to use\n@param bMute - mute" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -210,7 +204,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Bus" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Pause/Unpause all events going through this bus\n\x09 * @param Bus - bus to use\n\x09 * @param bPaused - paused\n\x09 */" },
 #endif
@@ -218,11 +211,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Pause/Unpause all events going through this bus\n@param Bus - bus to use\n@param bPaused - paused" },
 #endif
-=======
-		{ "Comment", "/** Pause/Unpause all events going through this bus\n\x09 * @param Bus - bus to use\n\x09 * @param bPaused - paused\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Pause/Unpause all events going through this bus\n@param Bus - bus to use\n@param bPaused - paused" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -276,7 +264,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Bus" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set volume on a bus\n\x09 * @param Bus - bus to use\n\x09 * @param Volume - volume\n\x09 */" },
 #endif
@@ -284,11 +271,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set volume on a bus\n@param Bus - bus to use\n@param Volume - volume" },
 #endif
-=======
-		{ "Comment", "/** Set volume on a bus\n\x09 * @param Bus - bus to use\n\x09 * @param Volume - volume\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set volume on a bus\n@param Bus - bus to use\n@param Volume - volume" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -337,7 +319,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|Bus" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Stops all EventInstances routed into the bus\n\x09 * @param Bus - bus to use\n\x09 * @param stopMode - desired stop mode\n\x09 */" },
 #endif
@@ -345,11 +326,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stops all EventInstances routed into the bus\n@param Bus - bus to use\n@param stopMode - desired stop mode" },
 #endif
-=======
-		{ "Comment", "/** Stops all EventInstances routed into the bus\n\x09 * @param Bus - bus to use\n\x09 * @param stopMode - desired stop mode\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Stops all EventInstances routed into the bus\n@param Bus - bus to use\n@param stopMode - desired stop mode" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -399,7 +375,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Sta
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Will be deprecated in FMOD 2.01, use `EventInstanceGetParameterValue(FFMODEventInstance, FName, float, float)` instead.\n     * Get a parameter on an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Name - Name of parameter\n\x09 */" },
 #endif
@@ -407,11 +382,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter_Sta
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Will be deprecated in FMOD 2.01, use `EventInstanceGetParameterValue(FFMODEventInstance, FName, float, float)` instead.\nGet a parameter on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Name - Name of parameter" },
 #endif
-=======
-		{ "Comment", "/** Will be deprecated in FMOD 2.01, use `EventInstanceGetParameterValue(FFMODEventInstance, FName, float, float)` instead.\n     * Get a parameter on an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Name - Name of parameter\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Will be deprecated in FMOD 2.01, use `EventInstanceGetParameterValue(FFMODEventInstance, FName, float, float)` instead.\nGet a parameter on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Name - Name of parameter" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -465,7 +435,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValu
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get a parameter on an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Name - Name of parameter\n     * @param UserValue - Parameter value as set from the public API.\n     * @param FinalValue - Final combined parameter value.\n\x09 */" },
 #endif
@@ -473,11 +442,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValu
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get a parameter on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Name - Name of parameter\n@param UserValue - Parameter value as set from the public API.\n@param FinalValue - Final combined parameter value." },
 #endif
-=======
-		{ "Comment", "/** Get a parameter on an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Name - Name of parameter\n     * @param UserValue - Parameter value as set from the public API.\n     * @param FinalValue - Final combined parameter value.\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Get a parameter on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Name - Name of parameter\n@param UserValue - Parameter value as set from the public API.\n@param FinalValue - Final combined parameter value." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -534,7 +498,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns whether this FMOD Event Instance is valid.  The instance will be invalidated when the sound stops.\n\x09 * @param EventInstance - Event instance\n\x09 */" },
 #endif
@@ -542,11 +505,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns whether this FMOD Event Instance is valid.  The instance will be invalidated when the sound stops.\n@param EventInstance - Event instance" },
 #endif
-=======
-		{ "Comment", "/** Returns whether this FMOD Event Instance is valid.  The instance will be invalidated when the sound stops.\n\x09 * @param EventInstance - Event instance\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Returns whether this FMOD Event Instance is valid.  The instance will be invalidated when the sound stops.\n@param EventInstance - Event instance" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -598,7 +556,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Allow an FMOD Event Instance to continue past a sustain point.\n\x09 * @param EventInstance - Event instance\n\x09 */" },
 #endif
@@ -606,11 +563,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Allow an FMOD Event Instance to continue past a sustain point.\n@param EventInstance - Event instance" },
 #endif
-=======
-		{ "Comment", "/** Allow an FMOD Event Instance to continue past a sustain point.\n\x09 * @param EventInstance - Event instance\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Allow an FMOD Event Instance to continue past a sustain point.\n@param EventInstance - Event instance" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -654,7 +606,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Plays an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 */" },
 #endif
@@ -662,11 +613,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Plays an FMOD Event Instance.\n@param EventInstance - Event instance" },
 #endif
-=======
-		{ "Comment", "/** Plays an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Plays an FMOD Event Instance.\n@param EventInstance - Event instance" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -710,7 +656,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Release an FMOD Event Instance.\n    * @param EventInstance - Event instance\n    */" },
 #endif
@@ -718,11 +663,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Release an FMOD Event Instance.\n@param EventInstance - Event instance" },
 #endif
-=======
-		{ "Comment", "/** Release an FMOD Event Instance.\n    * @param EventInstance - Event instance\n    */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Release an FMOD Event Instance.\n@param EventInstance - Event instance" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -768,7 +708,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Sta
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set a parameter on an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Name - Name of parameter\n\x09 * @param Value - Value of parameter\n\x09 */" },
 #endif
@@ -776,11 +715,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter_Sta
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set a parameter on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Name - Name of parameter\n@param Value - Value of parameter" },
 #endif
-=======
-		{ "Comment", "/** Set a parameter on an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Name - Name of parameter\n\x09 * @param Value - Value of parameter\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set a parameter on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Name - Name of parameter\n@param Value - Value of parameter" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -833,7 +767,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Static
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Pause/Unpause an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Paused - Whether to pause or unpause\n\x09 */" },
 #endif
@@ -841,11 +774,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused_Static
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Pause/Unpause an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Paused - Whether to pause or unpause" },
 #endif
-=======
-		{ "Comment", "/** Pause/Unpause an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Paused - Whether to pause or unpause\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Pause/Unpause an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Paused - Whether to pause or unpause" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -899,7 +827,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set pitch on an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Value - Volume to set\n\x09 */" },
 #endif
@@ -907,11 +834,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set pitch on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Value - Volume to set" },
 #endif
-=======
-		{ "Comment", "/** Set pitch on an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Value - Volume to set\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set pitch on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Value - Volume to set" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -961,7 +883,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Stat
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set an FMOD event property on an FMOD Event Instance.\n\x09* @param EventInstance - Event instance\n\x09* @param Property - Property to set\n\x09* @param Value - Value to set\n\x09*/" },
 #endif
@@ -969,11 +890,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Stat
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set an FMOD event property on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Property - Property to set\n@param Value - Value to set" },
 #endif
-=======
-		{ "Comment", "/** Set an FMOD event property on an FMOD Event Instance.\n\x09* @param EventInstance - Event instance\n\x09* @param Property - Property to set\n\x09* @param Value - Value to set\n\x09*/" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set an FMOD event property on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Property - Property to set\n@param Value - Value to set" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -984,11 +900,7 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Stat
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_EventInstance = { "EventInstance", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetProperty_Parms, EventInstance), Z_Construct_UScriptStruct_FFMODEventInstance, METADATA_PARAMS(0, nullptr) }; // 604437005
-<<<<<<< HEAD
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_Property = { "Property", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetProperty_Parms, Property), Z_Construct_UEnum_FMODStudio_EFMODEventProperty, METADATA_PARAMS(0, nullptr) }; // 1799004296
-=======
-const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_Property = { "Property", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetProperty_Parms, Property), Z_Construct_UEnum_FMODStudio_EFMODEventProperty, METADATA_PARAMS(0, nullptr) }; // 763397869
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMODBlueprintStatics_eventEventInstanceSetProperty_Parms, Value), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty_Statics::NewProp_EventInstance,
@@ -1030,7 +942,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Sta
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set 3D attributes on a FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Location - Location to place event\n\x09 */" },
 #endif
@@ -1038,11 +949,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform_Sta
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set 3D attributes on a FMOD Event Instance.\n@param EventInstance - Event instance\n@param Location - Location to place event" },
 #endif
-=======
-		{ "Comment", "/** Set 3D attributes on a FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Location - Location to place event\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set 3D attributes on a FMOD Event Instance.\n@param EventInstance - Event instance\n@param Location - Location to place event" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Location_MetaData[] = {
@@ -1094,7 +1000,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Static
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set volume on an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Value - Volume to set\n\x09 */" },
 #endif
@@ -1102,11 +1007,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume_Static
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set volume on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Value - Volume to set" },
 #endif
-=======
-		{ "Comment", "/** Set volume on an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n\x09 * @param Value - Volume to set\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set volume on an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Value - Volume to set" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -1155,7 +1055,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|EventInstance" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Stop an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n     * @param Release - Whether to release the Event Instance\n\x09 */" },
 #endif
@@ -1164,12 +1063,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stop an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Release - Whether to release the Event Instance" },
 #endif
-=======
-		{ "Comment", "/** Stop an FMOD Event Instance.\n\x09 * @param EventInstance - Event instance\n     * @param Release - Whether to release the Event Instance\n\x09 */" },
-		{ "CPP_Default_Release", "false" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Stop an FMOD Event Instance.\n@param EventInstance - Event instance\n@param Release - Whether to release the Event Instance" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -1223,7 +1116,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Find an asset by name.\n\x09 * @param EventName - The asset name\n\x09 */" },
 #endif
@@ -1231,11 +1123,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Find an asset by name.\n@param EventName - The asset name" },
 #endif
-=======
-		{ "Comment", "/** Find an asset by name.\n\x09 * @param EventName - The asset name\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Find an asset by name.\n@param EventName - The asset name" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Name_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1285,7 +1172,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Find an event by name.\n\x09 * @param EventName - The event name\n\x09 */" },
 #endif
@@ -1293,11 +1179,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Find an event by name.\n@param EventName - The event name" },
 #endif
-=======
-		{ "Comment", "/** Find an event by name.\n\x09 * @param EventName - The event name\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Find an event by name.\n@param EventName - The event name" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Name_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1348,7 +1229,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Return a list of all event instances that are playing for this event.\n\x09\x09""Be careful using this function because it is possible to find and alter any playing sound, even ones owned by other audio components.\n\x09 * @param Event - event to find instances from.\n\x09 */" },
 #endif
@@ -1358,13 +1238,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return a list of all event instances that are playing for this event.\n              Be careful using this function because it is possible to find and alter any playing sound, even ones owned by other audio components.\n@param Event - event to find instances from." },
 #endif
-=======
-		{ "Comment", "/** Return a list of all event instances that are playing for this event.\n\x09\x09""Be careful using this function because it is possible to find and alter any playing sound, even ones owned by other audio components.\n\x09 * @param Event - event to find instances from.\n\x09 */" },
-		{ "DefaultToSelf", "WorldContextObject" },
-		{ "HidePin", "WorldContextObject" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Return a list of all event instances that are playing for this event.\n              Be careful using this function because it is possible to find and alter any playing sound, even ones owned by other audio components.\n@param Event - event to find instances from." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -1419,7 +1292,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Stat
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Will be deprecated in FMOD 2.01, use `GetGlobalParameterValueByName(FName, float, float)` instead.\n     * Get a global parameter from the System.\n     * @param Name - Name of parameter\n     */" },
 #endif
@@ -1427,11 +1299,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName_Stat
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Will be deprecated in FMOD 2.01, use `GetGlobalParameterValueByName(FName, float, float)` instead.\nGet a global parameter from the System.\n@param Name - Name of parameter" },
 #endif
-=======
-		{ "Comment", "/** Will be deprecated in FMOD 2.01, use `GetGlobalParameterValueByName(FName, float, float)` instead.\n     * Get a global parameter from the System.\n     * @param Name - Name of parameter\n     */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Will be deprecated in FMOD 2.01, use `GetGlobalParameterValueByName(FName, float, float)` instead.\nGet a global parameter from the System.\n@param Name - Name of parameter" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -1480,7 +1347,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get a global parameter from the System.\n     * @param Name - Name of parameter\n     * @param UserValue - Parameter value as set from the public API.\n     * @param FinalValue - Final combined parameter value.\n     */" },
 #endif
@@ -1488,11 +1354,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get a global parameter from the System.\n@param Name - Name of parameter\n@param UserValue - Parameter value as set from the public API.\n@param FinalValue - Final combined parameter value." },
 #endif
-=======
-		{ "Comment", "/** Get a global parameter from the System.\n     * @param Name - Name of parameter\n     * @param UserValue - Parameter value as set from the public API.\n     * @param FinalValue - Final combined parameter value.\n     */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Get a global parameter from the System.\n@param Name - Name of parameter\n@param UserValue - Parameter value as set from the public API.\n@param FinalValue - Final combined parameter value." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -1544,7 +1405,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** List all output device names.\n\x09 */" },
 #endif
@@ -1552,11 +1412,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List all output device names." },
 #endif
-=======
-		{ "Comment", "/** List all output device names.\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "List all output device names." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue_Inner;
@@ -1602,7 +1457,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns true if a bank is loaded.\n\x09* @param Bank - bank to query\n\x09*/" },
 #endif
@@ -1610,11 +1464,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns true if a bank is loaded.\n@param Bank - bank to query" },
 #endif
-=======
-		{ "Comment", "/** Returns true if a bank is loaded.\n\x09* @param Bank - bank to query\n\x09*/" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Returns true if a bank is loaded.\n@param Bank - bank to query" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -1669,7 +1518,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "bBlocking", "true" },
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Loads a bank.\n\x09 * @param Bank - bank to load\n\x09 * @param bBlocking - determines whether the bank will load synchronously\n\x09 * @param bLoadSampleData - determines whether sample data will be preloaded immediately\n\x09 */" },
 #endif
@@ -1677,11 +1525,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Loads a bank.\n@param Bank - bank to load\n@param bBlocking - determines whether the bank will load synchronously\n@param bLoadSampleData - determines whether sample data will be preloaded immediately" },
 #endif
-=======
-		{ "Comment", "/** Loads a bank.\n\x09 * @param Bank - bank to load\n\x09 * @param bBlocking - determines whether the bank will load synchronously\n\x09 * @param bLoadSampleData - determines whether sample data will be preloaded immediately\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Loads a bank.\n@param Bank - bank to load\n@param bBlocking - determines whether the bank will load synchronously\n@param bLoadSampleData - determines whether sample data will be preloaded immediately" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -1743,7 +1586,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Load bank sample data.\n\x09 * @param Bank - bank to load sample data from\n\x09 */" },
 #endif
@@ -1751,11 +1593,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load bank sample data.\n@param Bank - bank to load sample data from" },
 #endif
-=======
-		{ "Comment", "/** Load bank sample data.\n\x09 * @param Bank - bank to load sample data from\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Load bank sample data.\n@param Bank - bank to load sample data from" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -1800,7 +1637,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Load event sample data.  This can be done ahead of time to avoid loading stalls.\n\x09 * @param Event - event to load sample data from.\n\x09 */" },
 #endif
@@ -1810,13 +1646,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load event sample data.  This can be done ahead of time to avoid loading stalls.\n@param Event - event to load sample data from." },
 #endif
-=======
-		{ "Comment", "/** Load event sample data.  This can be done ahead of time to avoid loading stalls.\n\x09 * @param Event - event to load sample data from.\n\x09 */" },
-		{ "DefaultToSelf", "WorldContextObject" },
-		{ "HidePin", "WorldContextObject" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Load event sample data.  This can be done ahead of time to avoid loading stalls.\n@param Event - event to load sample data from." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -1860,7 +1689,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Resume the FMOD mixer.  Used when resuming the application.\n\x09*/" },
 #endif
@@ -1868,11 +1696,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Resume the FMOD mixer.  Used when resuming the application." },
 #endif
-=======
-		{ "Comment", "/** Resume the FMOD mixer.  Used when resuming the application.\n\x09*/" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Resume the FMOD mixer.  Used when resuming the application." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -1902,7 +1725,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Suspend the FMOD mixer.  Used when suspending the application.\n\x09*/" },
 #endif
@@ -1910,11 +1732,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Suspend the FMOD mixer.  Used when suspending the application." },
 #endif
-=======
-		{ "Comment", "/** Suspend the FMOD mixer.  Used when suspending the application.\n\x09*/" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Suspend the FMOD mixer.  Used when suspending the application." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -1953,7 +1770,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics
 		{ "AdvancedDisplay", "2" },
 		{ "bAutoPlay", "true" },
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Plays an event.  This returns an FMOD Event Instance.  The sound does not travel with any actor.\n\x09 * @param Event - event to play\n\x09 * @param bAutoPlay - Start the event automatically.\n\x09 */" },
 #endif
@@ -1963,13 +1779,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Plays an event.  This returns an FMOD Event Instance.  The sound does not travel with any actor.\n@param Event - event to play\n@param bAutoPlay - Start the event automatically." },
 #endif
-=======
-		{ "Comment", "/** Plays an event.  This returns an FMOD Event Instance.  The sound does not travel with any actor.\n\x09 * @param Event - event to play\n\x09 * @param bAutoPlay - Start the event automatically.\n\x09 */" },
-		{ "DefaultToSelf", "WorldContextObject" },
-		{ "HidePin", "WorldContextObject" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Plays an event.  This returns an FMOD Event Instance.  The sound does not travel with any actor.\n@param Event - event to play\n@param bAutoPlay - Start the event automatically." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -2035,7 +1844,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics
 		{ "AdvancedDisplay", "2" },
 		{ "bAutoPlay", "true" },
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Plays an event at the given location. This returns an FMOD Event Instance.  The sound does not travel with any actor.\n\x09 * @param Event - event to play\n\x09 * @param Location - World position to play event at\n\x09 * @param bAutoPlay - Start the event automatically.\n\x09 */" },
 #endif
@@ -2045,13 +1853,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Plays an event at the given location. This returns an FMOD Event Instance.  The sound does not travel with any actor.\n@param Event - event to play\n@param Location - World position to play event at\n@param bAutoPlay - Start the event automatically." },
 #endif
-=======
-		{ "Comment", "/** Plays an event at the given location. This returns an FMOD Event Instance.  The sound does not travel with any actor.\n\x09 * @param Event - event to play\n\x09 * @param Location - World position to play event at\n\x09 * @param bAutoPlay - Start the event automatically.\n\x09 */" },
-		{ "DefaultToSelf", "WorldContextObject" },
-		{ "HidePin", "WorldContextObject" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Plays an event at the given location. This returns an FMOD Event Instance.  The sound does not travel with any actor.\n@param Event - event to play\n@param Location - World position to play event at\n@param bAutoPlay - Start the event automatically." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Location_MetaData[] = {
@@ -2129,7 +1930,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics
 		{ "bAutoDestroy", "true" },
 		{ "bAutoPlay", "true" },
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Plays an event attached to and following the specified component.\n\x09 * @param Event - event to play\n\x09 * @param AttachComponent - Component to attach to.\n\x09 * @param AttachPointName - Optional named point within the AttachComponent to play the sound at\n\x09 * @param Location - Depending on the value of Location Type this is either a relative offset from the attach component/point or an absolute world position that will be translated to a relative offset\n\x09 * @param LocationType - Specifies whether Location is a relative offset or an absolute world position\n\x09 * @param bStopWhenAttachedToDestroyed - Specifies whether the sound should stop playing when the owner of the attach to component is destroyed.\n\x09 * @param bAutoPlay - Start the event automatically.\n\x09 * @param bAutoDestroy - Automatically destroy the audio component when the sound is stopped.\n\x09 */" },
 #endif
@@ -2137,11 +1937,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Plays an event attached to and following the specified component.\n@param Event - event to play\n@param AttachComponent - Component to attach to.\n@param AttachPointName - Optional named point within the AttachComponent to play the sound at\n@param Location - Depending on the value of Location Type this is either a relative offset from the attach component/point or an absolute world position that will be translated to a relative offset\n@param LocationType - Specifies whether Location is a relative offset or an absolute world position\n@param bStopWhenAttachedToDestroyed - Specifies whether the sound should stop playing when the owner of the attach to component is destroyed.\n@param bAutoPlay - Start the event automatically.\n@param bAutoDestroy - Automatically destroy the audio component when the sound is stopped." },
 #endif
-=======
-		{ "Comment", "/** Plays an event attached to and following the specified component.\n\x09 * @param Event - event to play\n\x09 * @param AttachComponent - Component to attach to.\n\x09 * @param AttachPointName - Optional named point within the AttachComponent to play the sound at\n\x09 * @param Location - Depending on the value of Location Type this is either a relative offset from the attach component/point or an absolute world position that will be translated to a relative offset\n\x09 * @param LocationType - Specifies whether Location is a relative offset or an absolute world position\n\x09 * @param bStopWhenAttachedToDestroyed - Specifies whether the sound should stop playing when the owner of the attach to component is destroyed.\n\x09 * @param bAutoPlay - Start the event automatically.\n\x09 * @param bAutoDestroy - Automatically destroy the audio component when the sound is stopped.\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Plays an event attached to and following the specified component.\n@param Event - event to play\n@param AttachComponent - Component to attach to.\n@param AttachPointName - Optional named point within the AttachComponent to play the sound at\n@param Location - Depending on the value of Location Type this is either a relative offset from the attach component/point or an absolute world position that will be translated to a relative offset\n@param LocationType - Specifies whether Location is a relative offset or an absolute world position\n@param bStopWhenAttachedToDestroyed - Specifies whether the sound should stop playing when the owner of the attach to component is destroyed.\n@param bAutoPlay - Start the event automatically.\n@param bAutoDestroy - Automatically destroy the audio component when the sound is stopped." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttachToComponent_MetaData[] = {
@@ -2238,7 +2033,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Stat
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set a global parameter from the System.\n     * @param Name - Name of parameter\n     * @param Value - Value of parameter\n     */" },
 #endif
@@ -2246,11 +2040,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName_Stat
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set a global parameter from the System.\n@param Name - Name of parameter\n@param Value - Value of parameter" },
 #endif
-=======
-		{ "Comment", "/** Set a global parameter from the System.\n     * @param Name - Name of parameter\n     * @param Value - Value of parameter\n     */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set a global parameter from the System.\n@param Name - Name of parameter\n@param Value - Value of parameter" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -2298,7 +2087,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set the active locale for subsequent bank loads.\n    */" },
 #endif
@@ -2306,11 +2094,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the active locale for subsequent bank loads." },
 #endif
-=======
-		{ "Comment", "/** Set the active locale for subsequent bank loads.\n    */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set the active locale for subsequent bank loads." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Locale_MetaData[] = {
 		{ "NativeConst", "" },
@@ -2356,7 +2139,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Static
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set current output device by its index from GetOutputDrivers.\n\x09 */" },
 #endif
@@ -2364,11 +2146,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex_Static
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set current output device by its index from GetOutputDrivers." },
 #endif
-=======
-		{ "Comment", "/** Set current output device by its index from GetOutputDrivers.\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set current output device by its index from GetOutputDrivers." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_NewDriverIndex;
@@ -2411,7 +2188,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set current output device by name or part of the name.\n\x09 */" },
 #endif
@@ -2419,11 +2195,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set current output device by name or part of the name." },
 #endif
-=======
-		{ "Comment", "/** Set current output device by name or part of the name.\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set current output device by name or part of the name." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_NewDriverName;
@@ -2466,7 +2237,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Unloads a bank.\n\x09 * @param Bank - bank to unload\n\x09 */" },
 #endif
@@ -2474,11 +2244,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Unloads a bank.\n@param Bank - bank to unload" },
 #endif
-=======
-		{ "Comment", "/** Unloads a bank.\n\x09 * @param Bank - bank to unload\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Unloads a bank.\n@param Bank - bank to unload" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -2522,7 +2287,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Unload bank sample data.\n\x09 * @param Bank - bank to unload sample data from\n\x09 */" },
 #endif
@@ -2530,11 +2294,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Unload bank sample data.\n@param Bank - bank to unload sample data from" },
 #endif
-=======
-		{ "Comment", "/** Unload bank sample data.\n\x09 * @param Bank - bank to unload sample data from\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Unload bank sample data.\n@param Bank - bank to unload sample data from" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -2579,7 +2338,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Unload event sample data.\n\x09 * @param Event - event to load sample data from.\n\x09 */" },
 #endif
@@ -2589,13 +2347,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Unload event sample data.\n@param Event - event to load sample data from." },
 #endif
-=======
-		{ "Comment", "/** Unload event sample data.\n\x09 * @param Event - event to load sample data from.\n\x09 */" },
-		{ "DefaultToSelf", "WorldContextObject" },
-		{ "HidePin", "WorldContextObject" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Unload event sample data.\n@param Event - event to load sample data from." },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -2644,7 +2395,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Audio|FMOD|VCA" },
-<<<<<<< HEAD
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set volume on a VCA\n\x09 * @param Vca - VCA to use\n\x09 * @param Volume - volume\n\x09 */" },
 #endif
@@ -2652,11 +2402,6 @@ struct Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume_Statics
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set volume on a VCA\n@param Vca - VCA to use\n@param Volume - volume" },
 #endif
-=======
-		{ "Comment", "/** Set volume on a VCA\n\x09 * @param Vca - VCA to use\n\x09 * @param Volume - volume\n\x09 */" },
-		{ "ModuleRelativePath", "Classes/FMODBlueprintStatics.h" },
-		{ "ToolTip", "Set volume on a VCA\n@param Vca - VCA to use\n@param Volume - volume" },
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 		{ "UnsafeDuringActorConstruction", "true" },
 	};
 #endif // WITH_METADATA
@@ -2757,7 +2502,6 @@ struct Z_Construct_UClass_UFMODBlueprintStatics_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-<<<<<<< HEAD
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute, "BusSetMute" }, // 683442493
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused, "BusSetPaused" }, // 1663431826
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume, "BusSetVolume" }, // 1058332861
@@ -2798,48 +2542,6 @@ struct Z_Construct_UClass_UFMODBlueprintStatics_Statics
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData, "UnloadBankSampleData" }, // 1393968169
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData, "UnloadEventSampleData" }, // 1923327996
 		{ &Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume, "VCASetVolume" }, // 331928709
-=======
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetMute, "BusSetMute" }, // 1602170278
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetPaused, "BusSetPaused" }, // 3050010422
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusSetVolume, "BusSetVolume" }, // 2014822022
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_BusStopAllEvents, "BusStopAllEvents" }, // 3462802851
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameter, "EventInstanceGetParameter" }, // 2879608432
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceGetParameterValue, "EventInstanceGetParameterValue" }, // 3561912292
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceIsValid, "EventInstanceIsValid" }, // 320881851
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceKeyOff, "EventInstanceKeyOff" }, // 590816525
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstancePlay, "EventInstancePlay" }, // 1756469576
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceRelease, "EventInstanceRelease" }, // 2235017788
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetParameter, "EventInstanceSetParameter" }, // 4263004278
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPaused, "EventInstanceSetPaused" }, // 308114696
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetPitch, "EventInstanceSetPitch" }, // 711076244
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetProperty, "EventInstanceSetProperty" }, // 867276229
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetTransform, "EventInstanceSetTransform" }, // 966954676
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceSetVolume, "EventInstanceSetVolume" }, // 1909016016
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_EventInstanceStop, "EventInstanceStop" }, // 706060133
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_FindAssetByName, "FindAssetByName" }, // 1465038425
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_FindEventByName, "FindEventByName" }, // 182937611
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_FindEventInstances, "FindEventInstances" }, // 328605584
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterByName, "GetGlobalParameterByName" }, // 3076049646
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_GetGlobalParameterValueByName, "GetGlobalParameterValueByName" }, // 3170789651
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_GetOutputDrivers, "GetOutputDrivers" }, // 446815194
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_IsBankLoaded, "IsBankLoaded" }, // 359152379
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_LoadBank, "LoadBank" }, // 2855464614
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_LoadBankSampleData, "LoadBankSampleData" }, // 144261802
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_LoadEventSampleData, "LoadEventSampleData" }, // 1116565072
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_MixerResume, "MixerResume" }, // 4079419734
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_MixerSuspend, "MixerSuspend" }, // 1208729873
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEvent2D, "PlayEvent2D" }, // 3963916996
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAtLocation, "PlayEventAtLocation" }, // 68830200
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_PlayEventAttached, "PlayEventAttached" }, // 2051280042
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetGlobalParameterByName, "SetGlobalParameterByName" }, // 2862238950
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetLocale, "SetLocale" }, // 2583868419
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByIndex, "SetOutputDriverByIndex" }, // 75670784
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_SetOutputDriverByName, "SetOutputDriverByName" }, // 3356993149
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBank, "UnloadBank" }, // 3611749975
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadBankSampleData, "UnloadBankSampleData" }, // 2289350801
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_UnloadEventSampleData, "UnloadEventSampleData" }, // 2328443994
-		{ &Z_Construct_UFunction_UFMODBlueprintStatics_VCASetVolume, "VCASetVolume" }, // 2877734766
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -2884,11 +2586,7 @@ UFMODBlueprintStatics::~UFMODBlueprintStatics() {}
 // End Class UFMODBlueprintStatics
 
 // Begin Registration
-<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics
-=======
-struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EFMOD_STUDIO_STOP_MODE_StaticEnum, TEXT("EFMOD_STUDIO_STOP_MODE"), &Z_Registration_Info_UEnum_EFMOD_STUDIO_STOP_MODE, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2640779543U) },
@@ -2897,7 +2595,6 @@ struct Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudi
 		{ FFMODEventInstance::StaticStruct, Z_Construct_UScriptStruct_FFMODEventInstance_Statics::NewStructOps, TEXT("FMODEventInstance"), &Z_Registration_Info_UScriptStruct_FMODEventInstance, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFMODEventInstance), 604437005U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-<<<<<<< HEAD
 		{ Z_Construct_UClass_UFMODBlueprintStatics, UFMODBlueprintStatics::StaticClass, TEXT("UFMODBlueprintStatics"), &Z_Registration_Info_UClass_UFMODBlueprintStatics, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODBlueprintStatics), 2335663455U) },
 	};
 };
@@ -2905,14 +2602,5 @@ static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Do
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ScriptStructInfo),
 	Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_jmaso_OneDrive_Documents_Main_Project_Bumper_Brawl_BumperBrawl_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::EnumInfo));
-=======
-		{ Z_Construct_UClass_UFMODBlueprintStatics, UFMODBlueprintStatics::StaticClass, TEXT("UFMODBlueprintStatics"), &Z_Registration_Info_UClass_UFMODBlueprintStatics, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFMODBlueprintStatics), 4246841585U) },
-	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_4071093131(TEXT("/Script/FMODStudio"),
-	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::ScriptStructInfo),
-	Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_FMODStudio_Source_FMODStudio_Classes_FMODBlueprintStatics_h_Statics::EnumInfo));
->>>>>>> a43b6e878483e53a6dc2d3f1c4d13a1063318792
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
